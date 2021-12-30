@@ -46,3 +46,7 @@ h1 {
   background: linear-gradient(180deg, rgba(27, 22, 51, 1) 38%, rgba(4, 7, 10, 1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b1633", endColorstr="#04070a", GradientType=1);
 }
+
+.bg-rbga-black{
+  background-color: rgba(7, 9, 14, 0.44);
+}
