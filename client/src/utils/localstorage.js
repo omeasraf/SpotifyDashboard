@@ -31,3 +31,10 @@ export function getTokenTimestamp(){
 export function getRefreshToken(){
     return localStorage.getItem('spotify_refreshToken');
 }
+
+export function resetTokens(){
+    localStorage.removeItem('spotify_expiresIn');
+    localStorage.removeItem('spotify_accessToken')
+    localStorage.removeItem('spotify_refreshToken');
+    window.location.reload();
+}
